@@ -20,8 +20,8 @@ end
 Capybara.current_driver = :firefox
 Capybara.default_driver = :firefox
 
-Dir.glob(File.join(File.expand_path("../../pages", __FILE__), "**", "*.rb")).each do |file|
-  require file
+Dir.glob(File.join(File.expand_path("../../pages", __FILE__), "**", "*.rb")).each do |page_class|
+  require page_class
 end
 
 $home_page = HomePage.new
