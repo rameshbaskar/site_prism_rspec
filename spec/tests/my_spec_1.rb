@@ -1,4 +1,3 @@
-require_relative '../../spec/spec_helper'
 require_relative '../../spec/page_helper'
 
 describe "my spec 1" do

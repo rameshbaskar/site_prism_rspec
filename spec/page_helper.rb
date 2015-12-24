@@ -1,3 +1,5 @@
+require_relative 'spec_helper'
+
 def firefox_profile
   Selenium::WebDriver::Firefox::Profile.new
 end
