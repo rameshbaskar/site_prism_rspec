@@ -1,9 +1,9 @@
 require_relative '../../spec/page_helper'
 
-describe "my spec" do
-  it "should be able to search" do
+describe 'my spec' do
+  it 'should be able to search' do
     $home_page.load
-    $home_page.search_for("Google")
-    expect($home_page.searched?("Google")).to be_truthy
+    $home_page.search_for('Selenium')
+    expect($home_page.searched?('Selenium')).to be_truthy
   end
 end

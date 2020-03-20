@@ -1,5 +1,5 @@
 class HomePage < SitePrism::Page
-  set_url "http://www.google.com.sg/"
+  set_url "http://www.google.com/"
 
   element :search_field, "input[name=q]"
 
